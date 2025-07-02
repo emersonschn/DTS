@@ -44,7 +44,7 @@ INSERT INTO `officers` (`id`, `name`, `position`, `bio`, `image`, `grade`) VALUE
 (1, 'Joseph Reynolds', 'President', 'Joseph is from townville and currently studies construction systems management.', 'images/john_doe.jpg', 'Junior'),
 (2, 'Evan Miller', 'Vice President', 'Evan is from Erie county and currently studies Ag Business', 'images/john_doe.jpg', 'Sophomre'),
 (3, 'Jed Adams', 'Secretary', 'Jed is from Maro county and currently studies Ag Business', 'images/john_doe.jpg', 'Sophomore'),
-(4, 'Caleb Deming', 'Treasurer', 'Caleb is from Defiance county and currently studies ???', 'images/john_doe.jpg', 'Junior'),
+(4, 'Cooper Woodson', 'Treasurer', 'Cooper is from Marysville county and currently studies ???', 'images/john_doe.jpg', 'Junior'),
 (5, 'Aaron Muckerji', 'Social Chair', 'Aaron is from Nashville and currently studies Economics.', 'images/john_doe.jpg', 'Freshman'),
 (6, 'Matthew Mazzaro', 'Director of Recruitment', 'Matthew is from ??? and currently studies Animal Science.', 'images/john_doe.jpg', 'Sophomore'),
 (7, 'Hayden Johnson', 'House Manager', 'Hayden is from ??? and currently studies Animal Science', 'images/john_doe.jpg', 'Senior'),
