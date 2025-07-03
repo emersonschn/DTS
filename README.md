@@ -1,2 +1,2 @@
 # DTS
-website for the fraternity with backend for efficient officer documentation. 
+Delta Theta Sigma official website, providing scholarship, social media, and officer information.
