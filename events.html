@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+    <title>Events</title>
+  
+    <link rel="stylesheet" href="includes/header_style.css">
+    <link href="/images/crest.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+    <meta charset="UTF-8">    <meta name="description" content="Personal Webpage">
+    <meta name="keywords" content="Emerson, Schnipke">
+    <meta name="author" content="Emerson Schnipke">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+  </head>
+
+  <body>
+    
+    <div class="footer-fixer">
+
+    <header> 
+
+      <a class="logo" href="index.php">
+        <img src="images/DTS_Logo.png"/>
+      </a>
+
+      <a class="hamburger" onclick="navFunction()"><img src="images/hamburger.png"></a>
+
+    </header>
+<div class="head-nav">
+      <nav> 
+        <ul class="horizontal-nav">
+          <li> <a class="navbar-item" href="./">HOME</a> </li>
+          <li> <a class="navbar-item" href="about.html">ABOUT</a> </li>
+          <li> <a class="navbar-item" href="scholar.html">SCHOLARSHIP</a> </li>
+          <li> <a class="navbar-item" href="officers.html">OFFICERS</a> </li>
+          <li> <a class="navbar-item" href="events.html">EVENTS</a> </li>
+          <li> <a class="navbar-item" href="contact.html">CONTACT</a> </li>
+          
+        </ul>
+      </nav>
+
+    
+
+    <ul class="verticle-nav" id="vnav">
+      <li> <a class="verticle-navbar-item" href="./">HOME</a> </li>
+      <li> <a class="verticle-navbar-item" href="about.">ABOUT</a> </li>
+      <li> <a class="verticle-navbar-item" href="scholar.html">SCHOLARSHIP</a> </li>
+      <li> <a class="verticle-navbar-item" href="officers.html">OFFICERS</a> </li>
+      <li> <a class="verticle-navbar-item" href="events.html">EVENTS</a> </li>
+      <li> <a class="verticle-navbar-item" href="contact.html">CONTACT</a> </li>
+    </ul>
+
+    </div>
+
+    <script>
+      function navFunction() {
+        var x = document.getElementById("vnav");
+        if (x.className === "verticle-nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "verticle-nav";
+        }
+      }
+    </script>
+
+<style>
+        body {
+            background-color: #f4f4f9;
+            text-align: center;
+        }
+        .container {
+            font-family: Arial, sans-serif;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 1000px;
+        }
+        embed {
+            width: 100%;
+            height: 100vh;
+        }
+
+        @media (max-width: 600px) {
+            embed {
+                height: 80vh; /* Adjust the height on smaller screens */
+            }
+        }
+
+        @media (max-width: 400px) {
+            embed {
+                height: 70vh; /* Further adjustment for very small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    
+
+        <div class="container">
+            <h1>Founder's Day 2025</h1>
+            <p> Delta Theta Sigma's Founder's Day is a special occasion celebrated annually
+                by the fraternity, honoring its origins and the enduring legacy of its founders. 
+                This day serves as a reminder of the values and brotherhood that have shaped the
+                organization throughout its history. Alumni from near and far come back to the 
+                house to reconnect with old friends, celebrate their shared experiences, and 
+                reflect on the lasting impact the fraternity has had on their lives. It's a day
+                filled with nostalgia, as alumni remember the moments that defined their time in
+                    Delta Theta Sigma and the bonds that continue to thrive long after graduation. </p>
+
+            <a href="files/project1.pdf" type="pdf"> Download this year's Founder's Day information </a>
+        </div>
+
+
+
+<link rel='stylesheet' href='includes/footer_style.css'>
+
+<div class='spacer'>
+
+<footer>
+
+  <ul>
+    <li> <a href='https://www.facebook.com/dtsalpha/' target='_blank' class='footer-link'>Facebook</a> </li>
+    <li> <a href='https://www.instagram.com/dts_alpha_osu/?hl=en' target='_blank' class='footer-link'>Instagram</a> </li>
+  </ul>
+
+</footer>
+</div>
+</div>
+
+</body>
+
+</html>

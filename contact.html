@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+    <title> Contact </title>
+  
+    <link rel="stylesheet" href="includes/header_style.css">
+    <link href="/images/crest.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+    <meta charset="UTF-8">    <meta name="description" content="Personal Webpage">
+    <meta name="keywords" content="Emerson, Schnipke">
+    <meta name="author" content="Emerson Schnipke">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+  </head>
+
+  <body>
+    
+    <div class="footer-fixer">
+
+    <header> 
+
+      <a class="logo" href="index.php">
+        <img src="images/DTS_Logo.png"/>
+      </a>
+
+      <a class="hamburger" onclick="navFunction()"><img src="images/hamburger.png"></a>
+
+    </header>
+<div class="head-nav">
+      <nav> 
+        <ul class="horizontal-nav">
+          <li> <a class="navbar-item" href="./">HOME</a> </li>
+          <li> <a class="navbar-item" href="about.html">ABOUT</a> </li>
+          <li> <a class="navbar-item" href="scholar.html">SCHOLARSHIP</a> </li>
+          <li> <a class="navbar-item" href="officers.html">OFFICERS</a> </li>
+          <li> <a class="navbar-item" href="events.html">EVENTS</a> </li>
+          <li> <a class="navbar-item" href="contact.html">CONTACT</a> </li>
+          
+        </ul>
+      </nav>
+
+    
+
+    <ul class="verticle-nav" id="vnav">
+      <li> <a class="verticle-navbar-item" href="./">HOME</a> </li>
+      <li> <a class="verticle-navbar-item" href="about.">ABOUT</a> </li>
+      <li> <a class="verticle-navbar-item" href="scholar.html">SCHOLARSHIP</a> </li>
+      <li> <a class="verticle-navbar-item" href="officers.html">OFFICERS</a> </li>
+      <li> <a class="verticle-navbar-item" href="events.html">EVENTS</a> </li>
+      <li> <a class="verticle-navbar-item" href="contact.html">CONTACT</a> </li>
+    </ul>
+
+    </div>
+
+    <script>
+      function navFunction() {
+        var x = document.getElementById("vnav");
+        if (x.className === "verticle-nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "verticle-nav";
+        }
+      }
+    </script>
+    
+  
+    <link rel="stylesheet" href="ContactForm/style.css" />
+    <img src="images/field.jpeg" class="field" alt=""/>
+    <div class="container">
+      
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            test
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="ContactForm/img/location.png" class="icon" alt="" />
+              <p>80 East 13th Avenue, Columbus OH 43210</p>
+            </div>
+            <div class="information">
+              <img src="ContactForm/img/email.png" class="icon" alt="" />
+              <p><a href="mailto:info@dtsalpha.com"> info@dtsalpha.com </a> </p>
+            </div>
+            <div class="information">
+              <img src="ContactForm/img/phone.png" class="icon" alt="" />
+              <p>123-456-789</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+           
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="https://formsubmit.co/schnipke.90@buckeyemail.osu.edu" method="POST">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Name</label>
+              <span>Name</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="ContactForm/app.js"></script>
+  
+<link rel='stylesheet' href='includes/footer_style.css'>
+
+<div class='spacer'>
+
+<footer>
+
+  <ul>
+    <li> <a href='https://www.facebook.com/dtsalpha/' target='_blank' class='footer-link'>Facebook</a> </li>
+    <li> <a href='https://www.instagram.com/dts_alpha_osu/?hl=en' target='_blank' class='footer-link'>Instagram</a> </li>
+  </ul>
+
+</footer>
+</div>
+</div>
+
+</body>
+
+</html>
+
