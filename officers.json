@@ -4,9 +4,9 @@
       "id": 1,
       "name": "Joseph Reynolds",
       "position": "President",
-      "bio": "Joseph is from townville and currently studies construction systems management.",
+      "bio": "Joseph is from ??? and currently studies Construction Systems Management.",
       "image": "images/john_doe.jpg",
-      "grade": "Junior"
+      "grade": "Senior"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "position": "Vice President",
       "bio": "Evan is from Erie county and currently studies Ag Business",
       "image": "images/john_doe.jpg",
-      "grade": "Sophomre"
+      "grade": "Junior"
     },
     {
       "id": 3,
@@ -22,23 +22,15 @@
       "position": "Secretary",
       "bio": "Jed is from Maro county and currently studies Ag Business",
       "image": "images/Jed_Adams.jpeg",
-      "grade": "Sophomore"
+      "grade": "Junior"
     },
     {
       "id": 4,
       "name": "Cooper Woodson",
-      "position": "Treasurer",
-      "bio": "Cooper is from Marysville county and currently studies Animal Science",
+      "position": "Treasurer & Social Chair",
+      "bio": "Cooper is from Union county and currently studies Animal Science",
       "image": "images/john_doe.jpg",
-      "grade": "Junior"
-    },
-    {
-      "id": 5,
-      "name": "Aaron Muckerji",
-      "position": "Social Chair",
-      "bio": "Aaron is from Nashville and currently studies Economics.",
-      "image": "images/john_doe.jpg",
-      "grade": "Freshman"
+      "grade": "Sophomore"
     },
     {
       "id": 6,
@@ -46,13 +38,13 @@
       "position": "Director of Recruitment",
       "bio": "Matthew is from ??? and currently studies Animal Science.",
       "image": "images/john_doe.jpg",
-      "grade": "Sophomore"
+      "grade": "Junior"
     },
     {
       "id": 7,
-      "name": "Hayden Johnson",
+      "name": "Cody Cope",
       "position": "House Manager",
-      "bio": "Hayden is from ??? and currently studies Animal Science",
+      "bio": "Cody is from ??? and currently studies Animal Science",
       "image": "images/john_doe.jpg",
       "grade": "Senior"
     },
@@ -61,8 +53,8 @@
       "name": "Emerson Schnipke",
       "position": "Director of Communications",
       "bio": "Emerson is from Putnam county and currently studies Computer Science and Engineering",
-      "image": "images/john_doe.jpg",
-      "grade": "Freshman"
+      "image": "images/Emerson_Schnipke.jpg",
+      "grade": "Sophomore"
     }
   ]
 }
