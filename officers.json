@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Joseph Reynolds",
       "position": "President",
-      "bio": "Joseph is from ??? and currently studies Construction Systems Management.",
+      "bio": "Joseph is from Stark County and currently studies Construction Systems Management.",
       "image": "images/Joe_Reynolds.jpg",
       "grade": "Senior"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "name": "Evan Miller",
       "position": "Vice President",
-      "bio": "Evan is from Erie county and currently studies Ag Business",
+      "bio": "Evan is from Erie County and currently studies Ag Business",
       "image": "images/john_doe.jpg",
       "grade": "Junior"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "name": "Jed Adams",
       "position": "Secretary",
-      "bio": "Jed is from Maro county and currently studies Ag Business",
+      "bio": "Jed is from Maro County and currently studies Ag Business",
       "image": "images/Jed_Adams.jpeg",
       "grade": "Junior"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "name": "Cooper Woodson",
       "position": "Social Chair",
-      "bio": "Cooper is from Union county and currently studies Animal Science",
+      "bio": "Cooper is from Union County and currently studies Animal Science",
       "image": "images/john_doe.jpg",
       "grade": "Sophomore"
     },
@@ -52,7 +52,7 @@
       "id": 8,
       "name": "Emerson Schnipke",
       "position": "Director of Communications",
-      "bio": "Emerson is from Putnam county and currently studies Computer Science and Engineering",
+      "bio": "Emerson is from Putnam County and currently studies Computer Science and Engineering",
       "image": "images/Emerson_Schnipke.jpg",
       "grade": "Sophomore"
     }
