@@ -1,0 +1,68 @@
+{
+  "officers": [
+    {
+      "id": 1,
+      "name": "Joseph Reynolds",
+      "position": "President",
+      "bio": "Joseph is from townville and currently studies construction systems management.",
+      "image": "images/john_doe.jpg",
+      "grade": "Junior"
+    },
+    {
+      "id": 2,
+      "name": "Evan Miller",
+      "position": "Vice President",
+      "bio": "Evan is from Erie county and currently studies Ag Business",
+      "image": "images/john_doe.jpg",
+      "grade": "Sophomre"
+    },
+    {
+      "id": 3,
+      "name": "Jed Adams",
+      "position": "Secretary",
+      "bio": "Jed is from Maro county and currently studies Ag Business",
+      "image": "images/john_doe.jpg",
+      "grade": "Sophomore"
+    },
+    {
+      "id": 4,
+      "name": "Cooper Woodson",
+      "position": "Treasurer",
+      "bio": "Cooper is from Marysville county and currently studies ???",
+      "image": "images/john_doe.jpg",
+      "grade": "Junior"
+    },
+    {
+      "id": 5,
+      "name": "Aaron Muckerji",
+      "position": "Social Chair",
+      "bio": "Aaron is from Nashville and currently studies Economics.",
+      "image": "images/john_doe.jpg",
+      "grade": "Freshman"
+    },
+    {
+      "id": 6,
+      "name": "Matthew Mazzaro",
+      "position": "Director of Recruitment",
+      "bio": "Matthew is from ??? and currently studies Animal Science.",
+      "image": "images/john_doe.jpg",
+      "grade": "Sophomore"
+    },
+    {
+      "id": 7,
+      "name": "Hayden Johnson",
+      "position": "House Manager",
+      "bio": "Hayden is from ??? and currently studies Animal Science",
+      "image": "images/john_doe.jpg",
+      "grade": "Senior"
+    },
+    {
+      "id": 8,
+      "name": "Emerson Schnipke",
+      "position": "Director of Communications",
+      "bio": "Emerson is from Putnam county and currently studies Computer Science and Engineering",
+      "image": "images/john_doe.jpg",
+      "grade": "Freshman"
+    }
+  ]
+}
