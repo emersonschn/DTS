@@ -32,7 +32,7 @@
         <ul class="horizontal-nav">
           <li> <a class="navbar-item" href="./">HOME</a> </li>
           <li> <a class="navbar-item" href="about.html">ABOUT</a> </li>
-          <li> <a class="navbar-item" href="scholar.html">SCHOLARSHIP</a> </li>
+          <li> <a class="navbar-item" href="scholar.html">SCHOLARSHIPS</a> </li>
           <li> <a class="navbar-item" href="officers.html">OFFICERS</a> </li>
           <li> <a class="navbar-item" href="events.html">EVENTS</a> </li>
           <li> <a class="navbar-item" href="contact.html">CONTACT</a> </li>
@@ -45,7 +45,7 @@
     <ul class="verticle-nav" id="vnav">
       <li> <a class="verticle-navbar-item" href="./">HOME</a> </li>
       <li> <a class="verticle-navbar-item" href="about.html">ABOUT</a> </li>
-      <li> <a class="verticle-navbar-item" href="scholar.html">SCHOLARSHIP</a> </li>
+      <li> <a class="verticle-navbar-item" href="scholar.html">SCHOLARSHIPS</a> </li>
       <li> <a class="verticle-navbar-item" href="officers.html">OFFICERS</a> </li>
       <li> <a class="verticle-navbar-item" href="events.html">EVENTS</a> </li>
       <li> <a class="verticle-navbar-item" href="contact.html">CONTACT</a> </li>
@@ -117,11 +117,56 @@
         .indent{
             margin-left: 30px;
         }
+        .container ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .container ul > li {
+            position: relative;
+            padding-left: 1.8em;
+            margin-bottom: 1em;
+            font-size: 1.05em;
+        }
+        .container ul > li:before {
+            content: "\2022";
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-size: 1.5em;
+            line-height: 1;
+            top: 0.1em;
+        }
+        .container ul ul {
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+        }
+        .container ul ul > li:before {
+            content: "\25E6";
+            color: #45a049;
+            font-size: 1.2em;
+        }
+        .scholarship-btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(76,175,80,0.08);
+    margin-top: 10px;
+}
+.scholarship-btn:hover {
+    background-color: #388e3c;
+    color: #fff;
+}
     </style>
 
 
     <div class="container">
-        <h1>Scholarship Application</h1>
+        <h1>Live-In Scholarship Application</h1>
         <form action="submit_form.php" method="POST" enctype="multipart/form-data">
             <p><br>
             Several $1000 live-in scholarships are being offered to male freshmen or transfer students coming to Ohio State's Columbus campus! 
@@ -138,7 +183,7 @@
             Assisting in social, behavioral, and cultural development of our members. <br><br>
             </i> </div>
 
-            <center> The scholarship application will be due Monday, April 1st. </center>
+            <center> The scholarship application will be due April 1st. </center>
             </p>
             
             <div class="form-group">
@@ -186,6 +231,47 @@
             </div>
 
         </form>
+    </div>
+
+    <div class="container">
+        <h1>Alpha Chapter Controlling Corp. of the Delta Theta Sigma Fraternity Scholarship Fund</h1>
+        <p>
+            This scholarship provides funds for members of the fraternity based on critera found in the link below.
+        </p>
+        <ul>
+            <li><strong>Eligibility Criteria:</strong>
+                <ul>
+                    <li>Must attend The Ohio State University and be enrolled in the College of Food, Agricultural, and Environmental Sciences.</li>
+                    <li>Must have a background in agriculture or have lived on a farm.</li>
+                    <li>Must have participated in Future Farmers of America or 4H in high school.</li>
+                </ul>
+            </li>
+            
+            <li><strong>Award Amounts:</strong>
+                <ul>
+                    <li>The Gene “Duke” Perry Scholarship - $3,000</li>
+                    <li>The Founders Scholarship - $1,500 (two awards)</li>
+                </ul>
+            </li>
+        </ul>
+        <div style="text-align:center; margin-top: 24px;">
+            <a href="https://columbusfoundation.org/students/scholarships/scholarship-detail/AlphaChapterControllingCorpoftheDeltaThetaSigmaFraternityScholarshipFund/166" target="_blank" class="scholarship-btn">Learn More & Apply</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Founders Day Scholarships</h1>
+        <p>
+            Each year during Founders Day, several scholarships are awarded to members of Delta Theta Sigma in each grade. These scholarships recognize outstanding participation, leadership, and commitment to the fraternity's values and activities throughout the academic year.
+        </p>
+        <ul>
+            <li>Scholarships are given to members in each class: freshmen, sophomores, juniors, and seniors.</li>
+            <li>Selection is based on active participation in fraternity events, leadership roles, and contributions to the house community.</li>
+            <li>Recipients are recognized at the annual Founders Day celebration.</li>
+        </ul>
+        <p>
+            These awards encourage all members to stay involved and uphold the traditions and values of Delta Theta Sigma.
+        </p>
     </div>
 
 <link rel='stylesheet' href='includes/footer_style.css'>
