@@ -23,6 +23,7 @@ header a {
 .head-nav{
     position: sticky;
     top: 0;
+    z-index: 1100;
     
 }
 .logo{
